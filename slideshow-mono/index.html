@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Slideshow auto and manual (mono)">
+    <meta name="keywords" content="CSS, slides, Slideshow">
+    <meta name="author" content="Asifiwe BUHENDWA">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Slideshow-Mono</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="https://c4.wallpaperflare.com/wallpaper/717/298/378/nature-animals-big-cats-leopard-animal-wallpaper-preview.jpg" alt="Wolf">
+            <div>Captions for <strong>Tiger</strong></div>
+        </div>
+        <div class="item">
+            <img src="https://c1.wallpaperflare.com/preview/459/898/358/butterfly-swallow-tailed-butterfly-insect-nature.jpg" alt="Goose">
+            <div>Captions for <strong>Butterfly</strong></div>
+        </div>
+        <div class="item">
+            <img src="https://c4.wallpaperflare.com/wallpaper/72/530/410/closeup-photo-of-pink-bleeding-heart-flower-wallpaper-preview.jpg" alt="Bird">
+            <div>Captions for <strong>Cat</strong></div>
+        </div>
+        <div class="item">
+            <img src="https://c4.wallpaperflare.com/wallpaper/948/147/675/dog-animals-siberian-husky-water-wallpaper-preview.jpg" alt="Tiger">
+            <div>Captions for <strong>Wolf</strong></div>
+        </div>
+        <div class="item">
+            <img src="https://c4.wallpaperflare.com/wallpaper/917/691/823/dark-dog-animals-portrait-wallpaper-preview.jpg" alt="Dog">
+            <div>Captions for <strong>Dog</strong></div>
+        </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a><!--on click call the function plusSides with -1 on parameter-->
+    <a class="next" onclick="plusSlides(1)">&#10095;</a><!--on click call the function plusSides with 1 on parameter-->
+    <div class="slides-bullet">
+        <span class="dot" onclick="currentSlide(1)">1</span><!--on click call the function currentSides with 1 on parameter-->
+        <span class="dot" onclick="currentSlide(2)">2</span><!--on click call the function currentSides with 2 on parameter-->
+        <span class="dot" onclick="currentSlide(3)">3</span><!--those function allow to change image with button-->
+        <span class="dot" onclick="currentSlide(4)">4</span>
+        <span class="dot" onclick="currentSlide(5)">5</span>
+    </div>
+    <footer>
+        <p class="dev">By ASIFIWE BUHENDWA</p>
+        <p>4/13/2023</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
